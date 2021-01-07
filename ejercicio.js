@@ -1,5 +1,5 @@
-const claseAuto = require('./modules/claseAuto.js')
-const DatosAutos = require('./listaAutos')
+const claseAuto = require('./clases/claseAuto.js');
+const DatosAutos = require('./listaAutos');
 
 
 let objListAutos = [];
@@ -11,7 +11,7 @@ for (i = 0; i < DatosAutos.length; i++) {
 
 }
 
-//Muestra toda la lista objListAutos
+//Muestra en consola toda la lista objListAutos
 for (let i in objListAutos) {
   console.log(objListAutos[i].showDetails());
 }
